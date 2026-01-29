@@ -1,0 +1,17 @@
+replicaCount: 1
+image:
+  repository: pavanym6/go-cloud-native-web
+  pullPolicy: IfNotPresent
+  tag: "v1"
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  hosts:
+    - host: go-web-app.35.169.27.48.sslip.io
+      path:
+        - path: /
+          pathType: Prefix
+
