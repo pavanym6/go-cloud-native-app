@@ -5,7 +5,7 @@ on:
       - main
     paths-ignore:
       - "README.md"
-      - "heml/**"
+      - "helm/**"
       - "LICENSE"
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
       - name: run golang-ci-lint
         uses: golangci/golangci-lint-action@v6
         with:
-          version: v1.60.0
+          version: latest
 
   push:
     runs-on: ubuntu-latest
