@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: pavanym6/go-web-app
   pullPolicy: IfNotPresent
-  tag: "21904693989"
+  tag: "21908242076"
 
 ingress:
   enabled: true
