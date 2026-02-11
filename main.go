@@ -24,7 +24,7 @@ func contactPage(w http.ResponseWriter, r *http.Request) {
 	// Render the contact html page
 	http.ServeFile(w, r, "static/contact.html")
 }
-
+//this is dummy comment
 func main() {
 
 	http.HandleFunc("/home", homePage)
