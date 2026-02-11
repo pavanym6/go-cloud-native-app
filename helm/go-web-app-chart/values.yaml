@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: pavanym6/go-cloud-native-web
+  repository: pavanym6/go-web-app
   pullPolicy: IfNotPresent
   tag: "21904693989"
 
