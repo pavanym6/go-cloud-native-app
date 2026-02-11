@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: go-web-app.35.169.27.48.sslip.io
+  - host: go-web-app.54.196.237.206.nip.io
     http:
       paths:
       - path: /

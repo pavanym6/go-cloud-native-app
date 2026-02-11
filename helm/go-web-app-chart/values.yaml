@@ -10,7 +10,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
   hosts:
-    - host: go-web-app.35.169.27.48.sslip.io
+    - host: go-web-app.54.196.237.206.nip.io
       path:
         - path: /
           pathType: Prefix
